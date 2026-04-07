@@ -1,23 +1,29 @@
 💰 SpendLens – Student Expense Analytics Dashboard
-📌 Overview
 
+```
+📌 Overview
+```
 SpendLens is a data analytics and visualization project built using Power BI to help students track, analyze, and optimize their spending behavior. The dashboard provides actionable insights into financial habits, helping users make better budgeting decisions.
 
 This project focuses on real-world financial analysis, transforming raw transaction data into meaningful insights such as spending patterns, category distribution, and savings feasibility.
 
 Expense tracking systems help users “record, categorize, and analyze expenses to make informed financial decisions.”
-
+```
 🎯 Objectives
 Analyze student spending behavior
 Identify high-expense categories
 Detect spending patterns (daily, weekly, monthly)
 Evaluate savings feasibility
 Provide actionable recommendations
+```
+```
 🛠️ Tools & Technologies
 Power BI – Dashboard & visualization
 Python (Pandas, NumPy) – Data cleaning (optional)
 Excel/CSV Dataset – Transaction data
 DAX (Data Analysis Expressions) – Measures & calculations
+```
+```
 📂 Dataset Description
 
 The dataset contains student transaction details such as:
@@ -74,11 +80,15 @@ IF(
     "⚠ Not Feasible",
     "✔ Feasible"
 )
+```
 📊 Sample Insights
 Majority of spending is concentrated in Utilities and Food categories
 Weekend spending is higher, indicating lifestyle-driven expenses
 Spending exceeds income, making savings goals unachievable
 A reduction in discretionary expenses can improve savings
+
+```
+```
 🚀 How to Use
 Open Power BI Desktop
 Load the dataset (cleaned_transactions.csv)
@@ -86,17 +96,22 @@ Apply transformations (date, month, day columns)
 Create DAX measures
 Build visuals and dashboard
 Interact using filters and slicers
-
+```
+```
 🏆 Project Highlights
 Real-world financial analytics problem
 Strong use of DAX for insights
 Interactive and dynamic dashboard
 Business-focused recommendations
+```
+```
 📈 Future Enhancements
 Integration with real-time expense APIs
 Mobile-friendly dashboard
 AI-based expense prediction
 Personalized budgeting suggestions
+```
+```
 👩‍💻 Author
 
 Meghana B U
